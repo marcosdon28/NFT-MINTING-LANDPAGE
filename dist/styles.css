@@ -1,0 +1,55 @@
+#connect{
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    margin-top: 8px;
+    margin-left: 800px;
+
+
+}
+#connect-metamask{
+    height: 23px;
+    margin-top: 20px;
+    margin-left: 20px;
+    
+
+}
+#account{
+   margin-left: 15px;
+   margin-top: 23px;
+}
+.cabe{
+    
+    justify-content: center;
+    display: flex;
+    margin: auto;
+
+}
+
+#foto{
+    background-color: black;
+    justify-content: center;
+    height: 300px;
+    width: 300px;
+
+}
+#mint-section{
+    margin-top: 150px;
+    justify-content: center;
+    display: flex;
+
+}
+#mint-button{
+    margin-top: 265px;
+    margin-left: 20px;
+    width: 120px;
+    height: 35px;
+
+}
+#foot{
+    margin-top: 250px;
+    display: flex;
+    justify-content: left;
+    margin-left: 190px;
+
+}
