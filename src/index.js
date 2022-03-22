@@ -17,6 +17,7 @@ window.onload = function() {
     const connectButton = document.getElementById('connect-metamask');
     const account = document.getElementById('account')
     const connectText = document.getElementById('connect-text')
+    const mintButton = document.getElementById('mint-button')
     //Form
     
 	//functions
@@ -41,10 +42,13 @@ window.onload = function() {
         }
     }
 
-    function mint(){
-        contract.methods.payForMint().call()
-
+    const mint = async function (event){
+        var to = 0x28df3d8c734D1ef31B7AB18c0133deb10BC7B9ED;
+        var uri = "aaaa"
+        contract.methods.safeMint(to, uri).send({from,})
+	
     }
 
-    connectButton.onclick = connect ;
+    connectButton.onclick = connect;
+    mintButton.onclick = mint();
 }

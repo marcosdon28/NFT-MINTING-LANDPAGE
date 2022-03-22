@@ -1,5 +1,4 @@
 const abi = [
-    [
         {
             "anonymous": false,
             "inputs": [
@@ -53,7 +52,4 @@ const abi = [
             "type": "function"
         }
     ]
-
-
-]
 module.exports = abi ;
